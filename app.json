@@ -24,10 +24,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.abdulrauf8788.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    
+    "extra": {
+      "eas": {
+        "projectId": "62a80763-f128-4cee-9e4d-240f466e0257"
+      }
     }
-  }
+  },
+  "react-native-google-mobile-ads": {
+      "android_app_id": "ca-app-pub-7212418700180625/7610872760"
+    }
 }
